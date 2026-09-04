@@ -1,0 +1,22 @@
+# This repo is PUBLIC — GitHub Pages serves everything in it.
+# Nothing private should ever live in this folder. Working notes, the CARFAX
+# PDF and the GPS-tagged photo originals live one level up, outside this repo.
+
+# Belt-and-braces: refuse the private files even if one gets copied in here
+VEHICLE.md
+TODO.md
+*.pdf
+photo-originals/
+PXL_*.jpg
+*.RAW-01.COVER.jpg
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.vscode/
+.idea/
+
+# Local preview servers
+.playwright-mcp/

@@ -150,6 +150,40 @@ a { color: inherit; text-decoration: none; }
 }
 .nav__cta:hover { background: var(--ink-2) !important; }
 
+/* ============ LAST UPDATED BAR ============ */
+.updated {
+  background: var(--paper-2);
+  border-bottom: 1px solid var(--line);
+}
+.updated__inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  padding-block: 11px;
+  font-size: 13.5px;
+  color: var(--ink-3);
+}
+.updated__dot {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--green);
+  flex: none;
+}
+.updated__label {
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  font-size: 11.5px;
+  color: var(--ink-3);
+}
+.updated__date { font-weight: 600; color: var(--ink); }
+.updated__note {
+  margin-left: auto;
+  color: var(--green);
+  font-weight: 600;
+}
+
 /* ============ HERO ============ */
 .hero { position: relative; background: var(--paper); }
 .hero__media { position: relative; }

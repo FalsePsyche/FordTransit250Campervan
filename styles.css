@@ -812,6 +812,20 @@ a.inline-link:hover { border-bottom-color: var(--accent); }
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
 }
+.contact__grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 620px;
+  margin-inline: auto;
+}
+.contact__card--link {
+  display: block;
+  transition: background .18s var(--ease), border-color .18s var(--ease);
+}
+.contact__card--link:hover {
+  background: rgba(255,255,255,.09);
+  border-color: rgba(255,255,255,.3);
+}
+.contact__card--link .contact__value { word-break: break-word; }
 .contact__card {
   padding: 24px 18px;
   border: 1px solid rgba(255,255,255,.14);
@@ -884,7 +898,7 @@ a.inline-link:hover { border-bottom-color: var(--accent); }
   .gallery        { grid-template-columns: 1fr; gap: 10px; }
   .gallery__item--wide { grid-column: span 1; }
   .gallery__item--wide .ph { aspect-ratio: 4 / 3; }
-  .contact__grid  { grid-template-columns: 1fr; }
+  .contact__grid, .contact__grid--two { grid-template-columns: 1fr; }
   .timeline__item { grid-template-columns: 1fr; gap: 8px; padding-left: 22px; }
   .timeline__meta { flex-direction: row; align-items: baseline; gap: 10px; }
   .btn            { flex: 1; padding: 13px 14px; white-space: nowrap; }

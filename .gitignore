@@ -4,6 +4,7 @@
 
 # Belt-and-braces: refuse the private files even if one gets copied in here
 VEHICLE.md
+RENTAL-ANALYSIS.md
 TODO.md
 *.pdf
 photo-originals/
